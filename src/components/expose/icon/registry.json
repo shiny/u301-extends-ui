@@ -1,0 +1,11 @@
+{
+    "name": "icon",
+    "type": "registry:ui",
+    "dependencies": [
+        "@iconify/react"
+    ],
+    "registryDependencies": [
+    ],
+    "files": [
+    ]
+}
