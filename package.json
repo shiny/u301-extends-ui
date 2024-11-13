@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "postbuild": "mkdir -p .next/standalone/src/components && cp -r src/components/expose .next/standalone/src/components",
     "start": "next start",
     "lint": "next lint"
   },
