@@ -3,10 +3,16 @@
 Extends Your shadcn UI Components
 
 ## Introduction
-You can use this repository to extends your shadcn UI components, by running the following command:
+You can add (copy) the target component to your shadcn UI project by running the following command:
 
+**bun**
 ```bash
-shadcn add https://ui.tealight.uk/r/icon
+bunx shadcn add https://ui.tealight.uk/r/icon
+```
+
+**npm**
+```bash
+npx shadcn add https://ui.tealight.uk/r/icon
 ```
 
 ## Components
@@ -20,3 +26,6 @@ Supported Analytics are
 - [GoogleAnalytics](./src/components/expose/analytics-google/)
 - [Umami](./src/components/expose/analytics-umami/)
 - [OpenPanel](./src/components/expose/analytics-openpanel/)
+
+## License
+MIT
