@@ -1,0 +1,12 @@
+
+{
+    "name": "nprogress-bar",
+    "type": "registry:ui",
+    "dependencies": [
+        "next-nprogress-bar"
+    ],
+    "registryDependencies": [
+    ],
+    "files": [
+    ]
+}

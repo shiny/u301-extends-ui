@@ -12,9 +12,9 @@ shadcn add https://ui.tealight.uk/r/icon
 ## Components
 
 - [Icon](./src/components/expose/icon)
+- [NProgressBar](./src/components/expose/nprogress-bar/)
 
 ### Analytics
-
 Supported Analytics are
 
 - [GoogleAnalytics](./src/components/expose/analytics-google/)
