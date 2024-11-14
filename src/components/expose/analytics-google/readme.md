@@ -1,3 +1,6 @@
+---
+title: Analytics Google
+---
 # Analytics Google
 
 It's a wrapper component for `@next/third-parties/google`. For it's usage, please refer to the documentation

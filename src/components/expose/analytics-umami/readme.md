@@ -1,3 +1,7 @@
+---
+title: Analytics Umami
+---
+
 # Analytics Umami
 
 It's a wrapper component for `next-umami`. For it's usage, please refer to the documentation

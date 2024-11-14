@@ -1,3 +1,6 @@
+---
+title: Analytics OpenPanel
+---
 # Analytics OpenPanel
 
 It's a wrapper component for `@openpanel/nextjs`. For it's usage, please refer to the documentation

@@ -1,3 +1,6 @@
+---
+title: NProgress Bar
+---
 # NProgress Bar
 
 This is a wrapper component for next-nprogress-bar. Go for more details: https://next-nprogress-bar.vercel.app/

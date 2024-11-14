@@ -1,3 +1,7 @@
+---
+title: Icon
+---
+
 # Icon
 Use opensource svg icons in your shadcn app.
 Inspired by [@nuxt/icon](https://nuxt.com/modules/icon)
