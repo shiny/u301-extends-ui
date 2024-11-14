@@ -1,0 +1,12 @@
+
+{
+    "name": "analytics-umami",
+    "type": "registry:ui",
+    "dependencies": [
+        "next-umami"
+    ],
+    "registryDependencies": [
+    ],
+    "files": [
+    ]
+}

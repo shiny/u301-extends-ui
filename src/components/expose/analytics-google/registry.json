@@ -1,0 +1,12 @@
+
+{
+    "name": "analytics-google",
+    "type": "registry:ui",
+    "dependencies": [
+        "@next/third-parties"
+    ],
+    "registryDependencies": [
+    ],
+    "files": [
+    ]
+}

@@ -1,0 +1,12 @@
+
+{
+    "name": "analytics-openpanel",
+    "type": "registry:ui",
+    "dependencies": [
+        "@openpanel/nextjs"
+    ],
+    "registryDependencies": [
+    ],
+    "files": [
+    ]
+}

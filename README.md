@@ -13,3 +13,10 @@ shadcn add https://ui.tealight.uk/r/icon
 
 - [Icon](./src/components/expose/icon)
 
+### Analytics
+
+Supported Analytics are
+
+- [GoogleAnalytics](./src/components/expose/analytics-google/)
+- [Umami](./src/components/expose/analytics-umami/)
+- [OpenPanel](./src/components/expose/analytics-openpanel/)
