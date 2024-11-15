@@ -30,6 +30,15 @@ export default function Home() {
             <Icon name="codicon:github-inverted" className="w-6 h-6" />
             Github 
           </Link>
+          <Link
+            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+            href="https://github.com/shiny/u301-extends-ui/stargazers"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon name="ic:baseline-star-border" className="w-6 h-6 mr-1" />
+            Star on Github
+          </Link>
         </div>
         <div className=" font-[family-name:var(--font-geist-mono)]">
           Open source project by Tealight Ltd.
