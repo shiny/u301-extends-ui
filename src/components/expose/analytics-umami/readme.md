@@ -16,7 +16,7 @@ bunx shadcn add https://ui.tealight.uk/r/analytics-umami
 
 Set `NEXT_PUBLIC_UMAMI_WEBSITE_ID` in `.env` file, and import `AnalyticsUmami` component in your layout component.
 
-```tsx
+```tsx {1,7}
 import { AnalyticsUmami } from "@/components/ui/analytics-umami"
 
 fucntion Layout({ children }) {

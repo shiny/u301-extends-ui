@@ -86,3 +86,27 @@ body {
     @apply bg-background text-foreground;
   }
 }
+/* inline */
+span[data-rehype-pretty-code-figure] code {
+  @apply bg-gray-200 text-black text-sm font-normal px-2 py-1 mx-1 rounded !important
+}
+span[data-highlighted-line] {
+  /* @apply bg-slate-300 bg-opacity-10; */
+}
+figure[data-rehype-pretty-code-figure] pre{
+  @apply p-0 py-2; 
+}
+/**
+ * select the line span, which is not been highlighted, but in a hightlighted block
+ * make it less emphasized
+ */
+figure[data-rehype-pretty-code-figure] pre:has(span[data-highlighted-line]) span[data-line]:not([data-highlighted-line])  {
+  @apply opacity-60;
+}
+figure[data-rehype-pretty-code-figure] span[data-line] {
+  @apply px-4 leading-loose;
+}
+/* emphasize the highlighted line */
+figure[data-rehype-pretty-code-figure] span[data-highlighted-line] {
+  @apply bg-black font-bold border-l-4 border-indigo-600;
+}

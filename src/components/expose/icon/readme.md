@@ -14,7 +14,7 @@ bunx shadcn add https://ui.tealight.uk/r/icon
 
 ## Usage
 
-```tsx
+```tsx {1,4}
 import { Icon } from "@/components/ui/icon";
 
 export function IconDemo() {

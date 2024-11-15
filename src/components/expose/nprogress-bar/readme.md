@@ -15,7 +15,7 @@ bunx shadcn add https://ui.tealight.uk/r/nprogress-bar
 
 Add the `NProgressBar` component to your layout component `/app/layout.tsx`.
 
-```tsx
+```tsx {1,7}
 import { NProgressBar } from "@/components/ui/nprogress-bar"
 
 fucntion Layout({ children }) {

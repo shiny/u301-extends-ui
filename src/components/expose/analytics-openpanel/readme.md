@@ -15,7 +15,7 @@ bunx shadcn add https://ui.tealight.uk/r/analytics-openpanel
 
 Set `NEXT_PUBLIC_OPENPANEL_CLIENT_ID` in `.env` file, and import `AnalyticsGoogle` component in your layout component.
 
-```tsx
+```tsx {1,7}
 import { AnalyticsOpenPanel } from "@/components/ui/analytics-openpanel"
 
 fucntion Layout({ children }) {
