@@ -2,6 +2,7 @@
 import { readFile } from 'node:fs/promises'
 import { compileMDX } from 'next-mdx-remote/rsc'
 import { cache } from 'react'
+import rehypePrettyCode from "rehype-pretty-code"
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params
@@ -17,7 +18,14 @@ const getData = cache(async function(slug: string) {
     // https://github.com/hashicorp/next-mdx-remote#react-server-components-rsc--nextjs-app-directory-support
     const { content, frontmatter } = await compileMDX<{ title: string; description?: string }>({
         source: text.toString(),
-        options: { parseFrontmatter: true },
+        options: {
+            parseFrontmatter: true,
+            mdxOptions: {
+                rehypePlugins: [[rehypePrettyCode, {
+                    transformers: [],
+                }]],
+            },
+        },
     })
     return { content, frontmatter }
 })

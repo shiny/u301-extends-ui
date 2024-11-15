@@ -15,7 +15,7 @@ bunx shadcn add https://ui.tealight.uk/r/analytics-google
 
 Set `NEXT_PUBLIC_GOOGLE_ANALYTICS_ID` in `.env` file, and import `AnalyticsGoogle` component in your layout component.
 
-```tsx
+```tsx {1,7}
 import { AnalyticsGoogle } from "@/components/ui/analytics-google"
 
 fucntion Layout({ children }) {
