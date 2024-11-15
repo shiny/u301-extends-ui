@@ -1,0 +1,42 @@
+
+# chat-i18n
+chat-i18n is a js cli command to translate locale messages from one language to another.
+
+Currently, supported providers:
+- Deekseeker
+
+[chat-i18n on GitHub](https://github.com/shiny/chat-i18n)
+
+## Install
+```bash
+bun i chat-i18n
+```
+
+## Usage
+First, put chat-i18n.toml file in your project root directory.
+
+This is an example
+```toml
+# the locale message directory in your project
+dir = "locales"
+source = "en"
+
+[provider]
+# The name of the provider you are using. Currently, only "deekseek" is supported.
+name = "deekseek"
+
+[deekseek]
+# Your Deekseeker API key
+api_key = "sk-**"
+```
+
+Locale message files: `<any_locale_messages_dir>/<locale>.json`
+
+- Only support json format locale messages.
+- For incremental translation, we use git diff and json diff.
+
+
+Second, edit and save your locale messages file, do not commit it to git.
+
+Then, run the `bunx chat-i18n` command in your terminal to finish the translation.
+

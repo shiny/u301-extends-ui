@@ -51,6 +51,16 @@ export function AppSidebar() {
                             </SidebarMenuSub>
                         </SidebarMenu>
                     </SidebarGroupContent>
+                    <SidebarMenuButton>
+                        Utilities 
+                    </SidebarMenuButton>
+                    <SidebarMenuSub>
+                        <SidebarMenuSubItem>
+                            <SidebarMenuSubButton href="/utilities/chat-i18n">
+                                chat-i18n
+                            </SidebarMenuSubButton>
+                        </SidebarMenuSubItem>
+                    </SidebarMenuSub>
                 </SidebarMenuItem>
             </SidebarMenu>
         </Sidebar>
