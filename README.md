@@ -1,6 +1,9 @@
 # U301 Extends UI
+![U301 Extends UI](/public/logo.png)
 
 Extends Your shadcn UI Components
+
+- 📚 [Documentation](https://ui.tealight.uk)
 
 ## Introduction
 You can add (copy) the target component to your shadcn UI project by running the following command:
