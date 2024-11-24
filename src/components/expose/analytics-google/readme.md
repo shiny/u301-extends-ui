@@ -22,7 +22,7 @@ fucntion Layout({ children }) {
     return <html>
         <body>
             {children}
-            <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID!} />
+            <AnalyticsGoogle gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID!} />
         </body>
     </html>
 }
