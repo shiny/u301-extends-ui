@@ -37,6 +37,7 @@ registry:
 # Configure builder setup.
 builder:
   arch: amd64
+  remote: ssh://root@kamal-builder.tealight.uk
 
 
 # Inject ENV variables into containers (secrets come from .kamal/secrets).
